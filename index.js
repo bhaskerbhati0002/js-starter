@@ -21,3 +21,5 @@ console.log(
   'and the value of remainder is ',
   r
 );
+var cars = ['Saab', 'Volvo', 'BMW'];
+console.log(cars[1], ', type of cars is ', typeof cars);
