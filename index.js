@@ -23,3 +23,7 @@ console.log(
 );
 var cars = ['Saab', 'Volvo', 'BMW'];
 console.log(cars[1], ', type of cars is ', typeof cars);
+function mul(a, b) {
+  return a * b;
+}
+console.log('product is ', mul(2, 3));
