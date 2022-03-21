@@ -13,4 +13,11 @@ change_para();
 var a = 13;
 let z = a / 2;
 let r = a % 2;
-console.log('value of a is ', a);
+console.log(
+  'value of a is ',
+  a,
+  'and the value of z is ',
+  z,
+  'and the value of r is ',
+  r
+);
