@@ -27,3 +27,6 @@ function mul(a, b) {
   return a * b;
 }
 console.log('product is ', mul(2, 3));
+const car = { type: 'Fiat', model: '500', color: 'white' };
+console.log('color of this car is ', car.color);
+console.log('today"s complete date : ', Date());
