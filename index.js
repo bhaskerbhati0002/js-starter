@@ -9,6 +9,6 @@ function change_para()
 {
   appDiv.innerHTML="para changed";
 }
-
 change_para();
-window.alert="hello world!";
+var a=10;
+console.log=(a);
