@@ -11,13 +11,13 @@ function change_para() {
 }
 change_para();
 var a = 13;
-let z = a / 2;
+let q = a / 2;
 let r = a % 2;
 console.log(
   'value of a is ',
   a,
-  'and the value of z is ',
-  z,
-  'and the value of r is ',
+  'and the value of quotient is ',
+  q,
+  'and the value of remainder is ',
   r
 );
