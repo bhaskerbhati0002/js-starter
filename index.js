@@ -29,7 +29,13 @@ function mul(a, b) {
 console.log('product is ', mul(2, 3));
 const car = { type: 'Fiat', model: '500', color: 'white' };
 console.log('color of this car is ', car.color);
-console.log('today"s complete date : ', Date());
 
-var name = window.prompt('Enter your name: ');
-alert('Your name is ' + name);
+//var name = window.prompt('Enter your name: ');
+//alert('Your name is ' + name);
+const d = new Date();
+console.log(d);
+console.log(d.getFullYear());
+console.log(d.getMonth() + 1); //it starts month from 0
+console.log(d.getDate());
+console.log(d.getHours());
+console.log(d.getMinutes());
